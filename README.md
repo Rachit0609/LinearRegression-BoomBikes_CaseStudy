@@ -20,9 +20,11 @@
 ## Conclusions
 - The R-squared value of the train set is 82.71% whereas the test set has a value of 81.13% which suggests that our model broadly explains the variance quite accurately on the test set and thus we can conclude that it is a good model.
 
-- Our developed model's mean squared error is almost 0 on both the training and testing datasets which suggests that the variance is accurately predicted on the test set. The p-values and VIF were used to select the significant variables. RFE was also conducted for automated selection of variables.
+- Temperature (temp): Temperature has the most significant positive impact on bike rental demand. As the temperature rises, the demand for bike rentals increases significantly.
 
-- The major steps included in the python notebook are data interpretation, data visualisation, data pre-processing, model training, feature selection, residual analysis, model evaluation on the test set. 
+- The major steps included in the python notebook are data interpretation, data visualisation, data pre-processing, model training, feature selection, residual analysis, model evaluation on the test set.
+
+- Year (yr): The year has a positive impact on demand. Over time, there has been an increasing trend in bike rentals.
 
 - Concepts such as EDA, p-value, VIF, RFE were used and model building was done using statsmodels library
 
@@ -40,7 +42,7 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Contact
-Created by Shyam Patel[rachit0698@gmail.com] - feel free to contact me!
+Created by [Rachit0609] [rachit0698@gmail.com] - feel free to contact me!
 
 
 <!-- Optional -->
